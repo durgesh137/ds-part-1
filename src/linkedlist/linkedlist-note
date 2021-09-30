@@ -1,0 +1,32 @@
+ArrayList
+Internally use array having particular capacity, when it becomes full, new array having length of capacity more than 
+previous either 2*previous size, or any other capacity greater than previous one.
+
+Issues with Array
+=================
+1.Specify the size first, since memory needs to be allocated contiguously hence for space reservations, specifying size
+first is must.
+
+LinkedLists
+============
+Each element in LinkedList is termed as a Node.
+For inserting a new element, create new node at any location, thus no need to specify the size first.
+
+How to access elements(nodes) of LinkedList??
+-------------------------------------
+1. Task of each node is to remember its next node's location in memory,that is, each node must store the 
+location of its next node., hence due to this condition the data structure is termed as LINKEDLIST
+
+2. If any node does not have the next node, then null is stored
+3. The first node of chain is stored and termed as head, generally last node is termed as tail.
+
+Description of a Node in LL
+===========================
+It contains two things:
+1. one data field
+2. next node reference field
+
+The links in LL are very important, in case any link is missed, then access to all other nodes of LL is missed, thus
+can never be accessed.
+
+Why use linkedlists??

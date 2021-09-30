@@ -1,0 +1,10 @@
+Operations on Binary Trees
+1. insert element
+2. delete element
+3. search element
+4. traverse the tree
+
+Other operations:
+1. Find tree size
+2. Find tree height
+3. Find level having maximum sum

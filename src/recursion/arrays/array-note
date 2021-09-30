@@ -1,0 +1,13 @@
+https://www.geeksforgeeks.org/recursive-program-to-find-all-indices-of-a-number/
+
+CORRECT Algo....
+
+1.Check if start index matches arr length, return 0 length array.
+2. Make a recursive call to same method search in next index in array, and store the result in subAns array.
+3. Check if x is not found at start index, return the subAns[], obtained in step 2
+4. else, works, now x is found at start index, hence create ans[] having length as subans.length + 1
+	store start index value at index 0 in ans[]
+	now copy each element of subAns in ans[] at indexes starting with 1 in ans[], 
+	since start index is stored at index 0 already.
+	
+	
